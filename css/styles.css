@@ -1,12 +1,89 @@
 
-
-
-
 /* основной цвет текста #212121 */
 /* дополнительный цвет параграфа текста #757575  */
 /* выделенные объекты #2196F3 */
+/* font-family: font-family:``,
+sans-serif;
+font-family: 'Roboto',
+sans-serif; */
+
+:root {
+    --bg-color: #2F303A;
+    --secondary-color: #F5F4FA;
+    --white-color: #FFFFFF;
+    --text-color: #212121;
+    --accent-color: #2196F3;
+    --paragraf-color: #757575;
+    --main-font:'Roboto', sans-serif;
+}
+
+body {
+    color: #757575;
+    font-size: 14px;
+    font-family: var(--main-font)
+
+}
+
+.section-hero {
+    background-color: var(--bg-color);
+    margin: 0 auto;
+}
+
+.section-title-works,
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+
+.section-title-service {
+    font-weight: 700;
+    color: #212121;
+    line-height: 1.17;
+}
+
+.section-description {
+    line-height: 1.71;
+}
+
+/* buttons */
+
+.hero-btn,
+.nav-btn {
+       cursor: pointer;
+}
+
+.filter {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.625;
+}
+
+.hero-btn {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875;
+}
+.nav-logo {
+    text-decoration: none;
+    width: 140px;
+    font-family: 'Raleway', sans-serif;
+}
 
 .logo {
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.17;
+}
+
+.nav-contact:hover, 
+.nav-link:hover,
+.nav-link:focus,
+.nav-contact:focus,
+.nav-btn:focus,
+.nav-btn:hover,
+.nav-contact-footer:focus,
+.nav-contact-footer:hover {
     color: #2196F3;
 }
 
@@ -14,10 +91,76 @@
     color: #757575;
 }
 
-body {
+.nav-link,
+.nav-list,
+.nav-contact,
+.nav-contact-footer {
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--main-font);
+}
+
+.nav-link,
+.nav-contact {
+    font-weight: 500;
+    line-height: 1.17;
+}
+
+.nav-contact-footer,
+.adress-footer {
+    line-height: 1.71;
+}
+
+.nav-logo {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+
+.adress,
+.nav-contact-footer {
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.nav-link,
+.section-title,
+.section-title-works,
+.section-title-comanda {
     color: #212121;
 }
 
-.nav-contact:hover .nav-link:hover {
-    color: #2196F3;
+.section-title-comanda {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.17;
 }
+
+.section-title-portfolio {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.example {
+    font-size: 16px;
+    line-height: 1.875;
+}
+
+.position {
+    line-height: 1.17;
+    font-size: 16px;
+}
+.hero {
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+}
+
+.btn-list,
+.works-list {
+    list-style: none;
+}
+
+

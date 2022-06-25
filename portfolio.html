@@ -6,42 +6,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- header -->
     <header>
         <nav class="nav">
-            <a href=""><span class="logo">Web</span>Studio</a>
+            <a href="" class="nav-logo"><span class="logo">Web</span>Studio</a>
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a href="" class="nav-link">Студия</a>
+                    <a href="/index.html" class="nav-link">Студия</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Портфорлио</a>
+                    <a href="" class="nav-link">Портфолио</a>
                 </li>
                 <li class="nav-item">
                     <a href="" class="nav-link">Контакты</a>
                 </li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@example.com" class="nav-contact">info@example.com</a></li>
-            <li><a href="tel:+380991111111" class="nav-contact">+38 099 111 11 11</a></li>
+        <ul class="nav-list">
+            <li><a href="mailto:info@devstudio.com" class="nav-contact">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a></li>
         </ul>
     </header>
-</body>
 <main>
+    <section>
+        <h1 hidden>Portfolio</h1>
+            <ul class="btn-list">
+                <li><button class="nav-btn filter" type="button">Все</button></li>
+                <li><button class="nav-btn filter" type="button">Веб-сайты</button></li>
+                <li><button class="nav-btn filter" type="button">Приложения</button></li>
+                <li><button class="nav-btn filter" type="button">Дизайн</button></li>
+                <li><button class="nav-btn filter" type="button">Маркетинг</button></li>
+            </ul>
+        
+            <ul class="works-list">
+                <li>
+                    <a href="">
+                    <img src="/images/img1.jpg" alt="ankets" width="370" height="294">
+                    <h2 class="section-title-portfolio">Технокряк</h2>
+                    <p class="example">Веб-сайт</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                    <img src="/images/img2.jpg" alt="basketball" width="370" height="294">
+                    <h2 class="section-title-portfolio">Постер New Orlean vs Golden Star</h2>
+                    <p class="example">Дизайн</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                    <img src="/images/box3.jpg" alt="lofo of restaurants" width="370" height="294">
+                    <h2 class="section-title-portfolio">Ресторан Seafood</h2>
+                    <p class="example">Приложение</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                    <img src="/images/img4.jpg" alt="headphone" width="370" height="294">
+                    <h2 class="section-title-portfolio">Проект Prime</h2>
+                    <p class="example">Маркетинг</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                    <img src="/images/img5.jpg" alt="boxes" width="370" height="294">
+                    <h2 class="section-title-portfolio">Проект Boxes</h2>
+                    <p class="example">Приложение</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                    <img src="/images/img6.jpg" alt="screen" width="370" height="294">
+                    <h2 class="section-title-portfolio">Inspiration has no Borders</h2>
+                    <p class="example">Веб-сайт</p>
+                    </a>
 
+                </li>
+                <li>
+                    <a href="">
+                    <img src="/images/img7.jpg" alt="book" width="370" height="294">
+                    <h2 class="section-title-portfolio">Издание Limited Edition</h2>
+                    <p class="example">Дизайн</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                    <img src="/images/img8.jpg" alt="label" width="370" height="294">
+                    <h2 class="section-title-portfolio">Проект LAB</h2>
+                    <p class="example">Маркетинг</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                    <img src="/images/img9.jpg" alt="loptop" width="370" height="294">
+                    <h2 class="section-title-portfolio">Growing Business</h2>
+                    <p class="example">Приложение</p>
+                    </a>
+                </li>
+            </ul>
+    </section>
 </main>
 <!-- footer -->
 <footer>
-    <a href=""><span class="logo">Web</span>Studio</a>
-    <address>
-        <ul>
-            <li><a>г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+    <a href="" class="nav-logo"><span class="logo">Web</span>Studio</a>
+    <address class="adress">
+        <ul class="nav-list">
+            <li><a class="adress-footer">г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li><a href="mailto:info@example.com" class="nav-contact-footer">info@example.com</a></li>
+            <li><a href="tel:+380991111111" class="nav-contact-footer">+38 099 111 11 11</a></li>
         </ul>
     </address>
 </footer>
